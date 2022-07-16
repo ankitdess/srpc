@@ -9,12 +9,12 @@
 
   .wrapper{
     background-image: url('header_back.png');
+    background-position: center;
 
   }
 
   header{
-    background-color: #005067;
-    opacity: 0.8;
+    background-color:rgb(0, 80, 103,0.7);
     height: 600px;
   }
 
@@ -77,7 +77,7 @@ max-width: 90%;
   .overlay__content a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #edf0f1;
+    color: #ffffff;
     text-decoration: none;
   }
   
