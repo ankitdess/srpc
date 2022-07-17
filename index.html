@@ -9,51 +9,51 @@
 </head>
 <body>
 
-    <div class="wrapper">
     <header>
-        <nav class="parent">
-        <a class="logo" href="/"><img src="logo.svg" alt="logo"></a>
+
+        <section class="head">
+            <div class="overlay">
+        <div class="padman">        
         <nav>
-            <ul class="nav__links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
+            <a href="" class="logo"><img src="./logo.svg" alt=""></a>
+            <ul>
+            <li><a class="links" href="#">Home</a></li>
+            <li><a class="links" href="#">About</a></li>
+            <li><a class="links" href="#">Services</a></li>
+            <li><a class="cta links" href="">Contact Us</a></li>
+            <div class="menu" onclick="myFunction()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             </ul>
         </nav>
-        <a class="top cta" href="#">Contact us</a>
-        <div class="menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        </nav>
 
-        <div class="intro">
-        <p>Perfect infra solutions and advanced tech for your infrastructure projects</p>
-        <p>We at SRPC are commited to help you build your dream property by providing the right infra solutions</p>
-        <a class="cta" href="#">Contact us</a>
-    </div>
+            <div class="intro">
+                <h1>Perfect infra solutions and advanced tech for your infrastructure projects</h1>
+                <p>We at SRPC are commited to help you build your dream property by providing the right infra solutions</p>
+                <a style="display: inline-block ;" class="cta" href="">Contact Us</a>
+                <div class="foreimg"><img src="./im1.png" alt=""></div>
+            </div>
+        </div>
+        </div>
+        </section>
+        <div class="padman">
+        <div class="foreimg"><img src="./im2.png" alt=""></div>
+        </div>
     </header>
-</div>
 
+    <!--Mobile nav-->
 
-<div class="headimg">
-    <img src="headimg.png" alt="">
-</div>
-
-<section class="content">
-    <h1>Sorry, I am currently building out this section!</h1>
-</section>
-
-<div id="mobile__menu" class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a class="top cta" href="#">Contact us</a>
-        </div>
+    <div id="sidenav" class="nav-container">
+        <ul>
+            <li><a class="links" href="#">Home</a></li>
+            <li><a class="links" href="#">About</a></li>
+            <li><a class="links" href="#">Services</a></li>
+            <li><a class="cta-2" href="">Contact Us</a></li>
+        </ul>
     </div>
+
 
     <script src="app.js"></script>
     
