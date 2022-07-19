@@ -83,7 +83,7 @@ div.intro{
   padding-top: 110px;
 }
 
-div.intro h1,p{
+div.intro h1, div.intro p{
   color:#ffffff;
   font-size: 40px;
 }
@@ -123,6 +123,75 @@ div.menu div{
   background-color: #FE410A;
 }
 
+div.nav-container.show{
+  display: block;
+}
+
+
+div.content{
+  overflow: hidden;
+  position: relative;
+}
+
+div.cards{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+/*
+grid-auto-rows: 300px;*/
+
+}
+
+
+div.cards div{
+  background-color: antiquewhite;
+  border-radius: 8px;
+  border-top: 5px solid #FE410A;
+}
+
+div.card-m img{
+  padding: 10px ;
+}
+
+button.butts{
+  display: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  background-color: #FE410A;
+  border: 1px solid #FE410A;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+button.sec{
+  right: unset;
+  left: 0;
+}
+
+div.card-m img{
+  max-width: 100%;
+}
+
+div.card-m h3,p{
+  padding: 5px;
+  padding-left: 10px;
+}
+div.card-m p:nth-last-child(1){
+  padding-bottom: 10px;
+}
+
+h1.heading{
+  padding-top: 80px;
+}
+
+p.sub-heading{
+  padding: 20px 0px 30px 0px;
+}
 
 /*Mobile*/
 @media only screen and (max-width:600px){
@@ -133,5 +202,26 @@ div.menu div{
 .menu{
   display: inline;
 }
+
+
+div.cards{
+  grid-template-columns: repeat(6,1fr);
+  width: 2000px;
+}
+
+div.cards div{
+  display: none;
+}
+
+
+div.cards div.showme{
+  display: block;
+  }
+
+  button.butts{
+    display: block;
+  }
+  
+
 
 }
