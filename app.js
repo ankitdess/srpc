@@ -34,3 +34,26 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+/*Totally options- script for changing texts in loader animation*/
+
+var text = ["Get set Go..", "This Shouldn't take much time", "Hang on few sec.."];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 3000);
+
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+  }
+}
+
+function loader(){
+  var x= document.getElementById('preload');
+  document.body.style.overflow="unset"
+  x.style.display="none";
+
+}
