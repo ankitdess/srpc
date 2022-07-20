@@ -200,7 +200,7 @@ p.sub-heading{
 }
 
 /*icons*/
-.fa-solid{
+header p i.fa-solid{
   color: #005067;
 }
 
@@ -263,6 +263,54 @@ div.vision-txt{
 div.vision-txt p{
   padding:10px 0px;
   line-height: 24px;
+}
+
+div.contact{
+color: #ffffff;
+margin-top: 60px;
+width: 100%;
+background-image: url(./back.png);
+text-align: center;
+}
+
+div.over{
+  padding-top: 29px;
+  height:100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+div.bottom-txt{
+  background-color: #005067;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+div.info{
+  text-align: left;
+}
+
+div.cnt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+p.copy{
+  margin-top: 40px;
+  padding-top:30px;
+  border-top: 1px solid #f9f9f9;
+}
+
+div.over p{
+  padding-top: 10px ;
+}
+
+
+div.info p{
+  font-size: 20px;
+  padding: 5px 0px;
 }
 
 /*Mobile*/
@@ -333,5 +381,23 @@ div.cards div.showme{
   div.vision-txt{
     padding-top: 20px;
     width: 100%;
+  }
+
+  div.cnt{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  div.info{
+    text-align: center;
+  }
+
+  div.info p{
+    font-size: 16px;
+  }
+
+  div.cnt img{
+    width: 50%;
+    padding-bottom: 30px;
   }
 }
