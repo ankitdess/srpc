@@ -141,6 +141,7 @@ div.cards{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 20px;
+row-gap: 40px;
 /*
 grid-auto-rows: 300px;*/
 
@@ -182,7 +183,7 @@ div.card-m img{
   border-radius: 18px;
 }
 
-div.card-m h3,p{
+div.card-m h3,div.card-m p{
   padding: 5px;
   padding-left: 10px;
 }
@@ -201,6 +202,43 @@ p.sub-heading{
 /*icons*/
 .fa-solid{
   color: #005067;
+}
+
+div.para{
+  display: flex;
+ justify-content: space-between;
+ align-items: center; 
+ width: 100%;
+ background-color: #ffffff;
+ margin-top: 60px;
+}
+
+div.para-txt{
+  width: 60%;
+  padding-left: 8%;
+}
+
+div.para-txt p{
+  padding-top: 10px;
+  padding-right: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+div.para-txt h1{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+div.para-img{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.para-img img{
+  width: 100%;
 }
 
 /*Mobile*/
@@ -239,6 +277,26 @@ div.cards div.showme{
     display: block;
   }
   
+  div.para{
+    flex-direction: column-reverse;
+  }
+
+  div.para-txt{
+    width: 100%;
+  }
+
+  div.para-txt h1{
+    font-size: 23px;
+    padding-top: 18px;
+  }
+
+  div.para-txt p{
+    font-size: 16px;
+  }
+
+  div.para-img{
+    width: 100%;
+  }
 
 
 }
