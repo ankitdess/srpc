@@ -483,6 +483,36 @@ i{
   padding-right: 5px;
 }
 
+
+h1.heading{
+  color: #212326;
+}
+p.sub-heading{
+  color: #6b7177;
+}
+
+div.card-m h3,div.card-m p{
+  color: #212326;
+}
+
+div.para-txt h1{
+  color: #212326;
+}
+
+div.para-txt p{
+  color: #6b7177;
+}
+
+div.vision-txt h1{
+  color: #212326
+}
+
+div.vision-txt p{
+  color: #212326
+}
+
+
+
 /*Mobile*/
 @media only screen and (max-width:600px){
 .links {
