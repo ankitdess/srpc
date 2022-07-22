@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /*Style for loader*/
 
 div.box{
@@ -151,6 +153,7 @@ div.wrapper{
   bottom: 0;
   background-color: #2c2f33;
   z-index: 20;
+  transition: all 1s ease-out;
 }
 
 div.wraps{
