@@ -153,8 +153,6 @@ div.wrapper{
   bottom: 0;
   background-color: #2c2f33;
   z-index: 20;
-  transition: 1s ease-out;
-  opacity: 1;
 }
 
 div.wraps{

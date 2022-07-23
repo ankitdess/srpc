@@ -54,8 +54,5 @@ function change() {
 function loader(){
   var x= document.getElementById('preload');
   document.body.style.overflow="unset"
-  x.style.opacity="0";
-  setTimeout(()=>{
-    x.style.display="none";
-  },1000)
+  x.style.display="none";
 }
