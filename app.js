@@ -52,9 +52,19 @@ function change() {
 }
 /*Loading animation*/
 function loader(){
+  var y=document.querySelector('.box');
   var x= document.getElementById('preload');
   document.body.style.overflow="unset"
-  x.style.display="none";
+  y.style.display="none";
+
+ setTimeout(()=>{
+  x.style.opacity="0";
+  x.style.transition="1s"
+ },200) 
+
+    setTimeout(()=>{
+    x.style.display="none";
+  },1000)
 }
 
 
